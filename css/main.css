@@ -190,7 +190,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .work {
-    padding: 20px 0;
+    padding: 25px 0;
+}
+
+.projects {
+    padding: 25px 0;
+    background: rgb(242, 242, 242);
+}
+
+.project {
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.project__img {
+    display: block;
+    width: 100%;
+}
+
+.project__link {
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    background: rgb(7,155,227);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 17px;
+    text-transform: uppercase;
 }
 
 /* ==========================================================================
