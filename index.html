@@ -41,18 +41,18 @@
                     <h1 class="header__title">FlatWeb</h1>
                 </a>
                 <nav class="header__nav">
-                    <a class="header__nav-el" href="#notre-travail">Notre travail</a>
-                    <a class="header__nav-el" href="#nos-realisations">Nos réalisations</a>
-                    <a class="header__nav-el" href="#a-propos">A propos</a>
-                    <a class="header__nav-el" href="#contact">Contact</a>
+                    <a data-scroll class="header__nav-el" href="#notre-travail">Notre travail</a>
+                    <a data-scroll class="header__nav-el" href="#nos-realisations">Nos réalisations</a>
+                    <a data-scroll class="header__nav-el" href="#a-propos">A propos</a>
+                    <a data-scroll class="header__nav-el" href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
         <section class="intro">
             <div class="intro__container h-full-width">
                 <p class="intro__slogan">Nous créons votre image sur le web</p>
-                <a class="btn btn--grey" id="nos-realisations">Nos réalisations</a>
-                <a class="btn btn--blue" id="contact">Prendre contact</a>
+                <a data-scroll class="btn btn--grey" href="#nos-realisations">Nos réalisations</a>
+                <a data-scroll class="btn btn--blue" href="#contact">Prendre contact</a>
             </div>
         </section>
         <section class="work" id="notre-travail">
@@ -65,26 +65,21 @@
                     <li>Internet : Conception de votre site et hébergement</li>
                     <li>Support : Une équipe attentive à vos besoins</li>
                 </ul>
+                <h3>Démarche</h3>
+                <h2></h2>
             </div>
         </section>
         <section class="projects" id="nos-realisations">
             <div class="h-full-width">
                 <h2>Nos réalisations</h2>
                 <a href="http://swissrods.ch" target="_blank" class="project">
-                    <img class="project__img" src="http://placehold.it/900x400">
-                    <span class="project__link">www.swissrods.ch</span>
-                </a>
-                <a href="http://swissrods.ch" target="_blank" class="project">
-                    <img class="project__img" src="http://placehold.it/900x400">
-                    <span class="project__link">www.swissrods.ch</span>
-                </a>
-                <a href="http://swissrods.ch" target="_blank" class="project">
-                    <img class="project__img" src="http://placehold.it/900x400">
+                    <img class="project__img" src="img/bg-swissrods.jpg">
+                    <div></div>
                     <span class="project__link">www.swissrods.ch</span>
                 </a>
             </div>
         </section>
+        <script src="js/smooth-scroll.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/zenscroll-min.js"></script>
     </body>
 </html>
