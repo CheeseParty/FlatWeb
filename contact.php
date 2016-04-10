@@ -10,7 +10,7 @@
     <body>
         <div id="contact">
             <h2>Contactez-nous !</h2>
-            <p class="about">Les échanges se feront par courrier électronique, merci de saisir une adresse e-mail valide vous appartenant. Nous serons les seuls à avoir accès à vos informations.</p>
+            <p class="about">Vous avez une idée ? Faites-nous en part ! Vous pouvez également demander plus d'informations, un devis...</p>
             <form>
                 <input type="text" name="nom" placeholder="Nom">
                 <input type="text" name="nom_entreprise" placeholder="Entreprise">

@@ -1,11 +1,17 @@
+*{
+    font-family:Poppins;
+    font-weight: 300;
+    padding:0;
+    margin:0;
+}
+
 #contact {
     width:900px;
     border-radius:2px;
     border:1px solid #eee;
     margin:0 auto;
     padding:20px 30px;
-    font-family:Poppins;
-    font-weight: 300;
+    
 }
 
 h2 {
@@ -59,8 +65,6 @@ textarea {
     margin: 10px auto 0;
     width:600px;
     padding:8px;
-    font-family:Poppins;
-    font-weight:300;
 }
 
 input[type="submit"] {
@@ -71,9 +75,8 @@ input[type="submit"] {
     -webkit-border-radius: 60;
     -moz-border-radius: 60;
     border-radius: 60px;
-    font-family: Arial;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
     background: #1e99eb;
     padding: 7px 40px 7px 40px;
     text-decoration: none;
