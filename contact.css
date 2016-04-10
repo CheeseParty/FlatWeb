@@ -1,0 +1,86 @@
+#contact {
+    width:900px;
+    border-radius:2px;
+    border:1px solid #eee;
+    margin:0 auto;
+    padding:20px 30px;
+    font-family:Poppins;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+    text-align:center;
+    margin:5px 0;
+    padding:0;
+}   
+
+p.about{
+    width:500px;
+    text-align: center;
+    font-size:12px;
+    margin:auto;
+    padding-bottom:10px;
+}
+input[type="text"],input[type="email"] {
+    width:350px;
+    padding:12px 8px;
+    border-radius:2px;
+    display:block;
+    margin: 10px auto;
+    border:1px solid #D8D8D8;
+}
+
+form {
+    width:95%;
+    margin:0 auto;
+}
+
+/*input[type="submit"] {
+    
+    display:block;
+    margin:0 auto;
+    margin-top:10px;
+    padding:12px 15px;
+    
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0;
+}*/
+
+textarea {
+    border: 1px solid #D8D8D8;
+    resize:none;
+    display:block;
+    margin: 10px auto 0;
+    width:600px;
+    padding:8px;
+    font-family:Poppins;
+    font-weight:300;
+}
+
+input[type="submit"] {
+    
+    display:block;
+    margin:10px auto;
+    border:0;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    background: #1e99eb;
+    padding: 7px 40px 7px 40px;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover  {
+    cursor:pointer;
+  background: #3cb0fd;
+  text-decoration: none;
+}
