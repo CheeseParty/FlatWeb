@@ -252,12 +252,34 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+.contact {
+    background: #079be3;
+    text-align: center;
+    padding: 25px 0;
+    color: #fff;
+}
+
+.contact__input {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 10px;
+    color: #000;
+}
+
+.contact__input.btn {
+    width: auto;
+    color: #fff;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    
+
 }
 
 @media print,

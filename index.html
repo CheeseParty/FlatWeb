@@ -25,8 +25,6 @@
         <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="/manifest.json">
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff">
-        <link rel="stylesheet" href="contact.css">
-        <link href='https://fonts.googleapis.com/css?family=Poppins:300,500' rel='stylesheet' type='text/css'>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -66,6 +64,7 @@
                     <li>Branding : Création de votre identité visuelle</li>
                     <li>Internet : Conception de votre site et hébergement</li>
                     <li>Support : Une équipe attentive à vos besoins</li>
+                    <li>compatibilité smartphone + rénovation de sites</li>
                 </ul>
                 <h3>Types de sites proposés</h3>
                 <ul>
@@ -74,6 +73,11 @@
                     <li>Blogs</li>
                     <li>Forums</li>
                 </ul>
+                <p class="langues">
+                    Nous parlons français.<br>
+                    We speak English.<br>
+                    Wir sprechen Deutsch.
+                </p>
             </div>
         </section>
         <section class="projects" id="nos-realisations">
@@ -116,18 +120,17 @@
                 </ul>
             </div>
         </section>
-        
-        <div id="contact">
-            <h2>Contactez-nous !</h2>
-            <p class="about">Vous avez une idée ? Faites-nous en part ! Vous pouvez également demander plus d'informations, un devis...</p>
-            <form>
-                <input type="text" name="nom" placeholder="Nom">
-                <input type="text" name="nom_entreprise" placeholder="Entreprise">
-                <input type="email" name="email" placeholder="Adresse e-mail">
-                <textarea name="content" placeholder="Contenu du message..." rows="5"></textarea>
-                <input type="submit" name="send" value="Envoyer le message">
-            </form>
-        </div>
+        <section class="contact" id="contact">
+            <div class="h-full-width">
+                <h2>Contact</h2>
+                <p class="contact__about">Vous avez une idée ? Faites-nous en part !</p>
+                <input class="contact__input" type="text" name="nom" placeholder="Nom *">
+                <input class="contact__input" type="phone" name="phone" placeholder="Téléphone">
+                <input class="contact__input" type="email" name="email" placeholder="Adresse e-mail *">
+                    <textarea class="contact__input" name="content" placeholder="Parlez-nous de votre projet ou de votre entreprise *" rows="5"></textarea>
+                <button class="contact__input btn btn--grey">Envoyer</button>
+            </div>
+        </section>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/main.js"></script>
     </body>
