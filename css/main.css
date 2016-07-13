@@ -270,8 +270,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact__input.btn {
-    width: auto;
+    width: 300px;
     color: #fff;
+    background:rgba(0,0,0,0);
+    border:2px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.contact__input.btn:hover {
+    background:#fff;
+    color:#079be3;
 }
 
 /* ==========================================================================
