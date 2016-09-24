@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 54 39" xml:space="preserve">
-    <!--<polygon fill="#DE4141" points="-9 18 27 40 60 18 27 -6"/>-->
+    <polygon fill="#fff" points="-9 18 27 40 60 18 27 -6"/>
     <polygon fill="#0069C5" points="0 18 9 24 18 18 9 12"/>
     <polygon fill="#0069C5" points="18 30 27 36 36 30 27 24"/>
     <polygon fill="#DE4141" points="36 18 45 24 54 18 45 12"/>
